@@ -1,14 +1,42 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <!-- <link href="css/bootstrap.css" rel="stylesheet" type="text/css"> -->
   <link href="css/styles.css" rel="stylesheet" type="text/css">
   <script src="js/jquery-3.5.1.js"></script>
   <script src="js/scripts.js"></script>
-  <title></title>
+  <title>Ingredient Price Calculator</title>
 </head>
 <body>
   <div class="container">
+    <h1>Placeholder</h1>
+    <form id="calculator">
+      <div>
+        <label for="order-weight">Order Shipping Weight:</label>
+        <input type="text" name="order-weight" id="order-weight" required>
+      </div>
+      <div>
+        <label for="order-shipping-cost">Shipping & Handling:</label>
+        <input type="text" name="order-shipping-cost" id="order-shipping-cost" required>
+      </div>
+      <div>
+        <label for="sales-tax">Sales Tax Rate:</label>
+        <input type="text" name="sales-tax" id="sales-tax" required>
+      </div>
+      <div>
+        <label for="price">Item Price:</label>
+        <input type="text" name="price" id="price" required>
+      </div>
+      <div>
+        <input type="submit" value="Calculate">
+      </div>
+      <div id="form-results">
+
+
+      </div>
+
+
+    </form>
   </div>
 </body>
 </html>
